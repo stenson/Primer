@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		981E887F174A8310006C0F90 /* Memory.m in Sources */ = {isa = PBXBuildFile; fileRef = 981E887E174A8310006C0F90 /* Memory.m */; };
+		981E8882174A862C006C0F90 /* Mnemonic.m in Sources */ = {isa = PBXBuildFile; fileRef = 981E8881174A862C006C0F90 /* Mnemonic.m */; };
 		98E9F7471744B2E400C116DA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98E9F7461744B2E400C116DA /* UIKit.framework */; };
 		98E9F7491744B2E400C116DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98E9F7481744B2E400C116DA /* Foundation.framework */; };
 		98E9F74B1744B2E400C116DA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98E9F74A1744B2E400C116DA /* CoreGraphics.framework */; };
@@ -27,6 +29,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		981E887D174A8310006C0F90 /* Memory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Memory.h; sourceTree = "<group>"; };
+		981E887E174A8310006C0F90 /* Memory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Memory.m; sourceTree = "<group>"; };
+		981E8880174A862C006C0F90 /* Mnemonic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mnemonic.h; sourceTree = "<group>"; };
+		981E8881174A862C006C0F90 /* Mnemonic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mnemonic.m; sourceTree = "<group>"; };
 		98E9F7431744B2E400C116DA /* Primer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Primer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98E9F7461744B2E400C116DA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		98E9F7481744B2E400C116DA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -109,6 +115,10 @@
 				98E9F76F1744B2E400C116DA /* ADKDetailViewController_iPhone.xib */,
 				98E9F7721744B2E400C116DA /* ADKDetailViewController_iPad.xib */,
 				98E9F7601744B2E400C116DA /* Primer.xcdatamodeld */,
+				981E8880174A862C006C0F90 /* Mnemonic.h */,
+				981E8881174A862C006C0F90 /* Mnemonic.m */,
+				981E887D174A8310006C0F90 /* Memory.h */,
+				981E887E174A8310006C0F90 /* Memory.m */,
 				98E9F74F1744B2E400C116DA /* Supporting Files */,
 			);
 			path = Primer;
@@ -203,6 +213,8 @@
 				98E9F7621744B2E400C116DA /* Primer.xcdatamodeld in Sources */,
 				98E9F7651744B2E400C116DA /* ADKMasterViewController.m in Sources */,
 				98E9F7681744B2E400C116DA /* ADKDetailViewController.m in Sources */,
+				981E887F174A8310006C0F90 /* Memory.m in Sources */,
+				981E8882174A862C006C0F90 /* Mnemonic.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,6 +328,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Primer/Primer-Prefix.pch";
 				INFOPLIST_FILE = "Primer/Primer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -327,6 +340,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Primer/Primer-Prefix.pch";
 				INFOPLIST_FILE = "Primer/Primer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -351,6 +365,7 @@
 				98E9F7791744B2E400C116DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
